@@ -1,107 +1,142 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>PowerFit Gym</title>
-<style>
-  body{font-family:"Times New Roman",serif;margin:16px;color:#111}
-  .wrap{max-width:900px;margin:0 auto}
-  header{text-align:center}
-  h1{font-size:24px;margin:0}
-  p.lead{margin:6px 0 10px;color:#444;font-size:13px}
-  nav{font-size:13px;text-align:center;margin-bottom:8px}
-  nav a{margin:0 6px;text-decoration:underline}
-  hr{border:0;height:1px;background:#ddd;margin:12px 0}
-  h2{font-size:18px;margin:14px 0 6px}
-  table{border-collapse:collapse;width:100%;font-size:14px}
-  th,td{border:1px solid #333;padding:6px;text-align:left}
-  .small{font-size:13px;color:#333}
-  label{display:block;margin-top:8px}
-  input,textarea{width:260px;max-width:100%;padding:6px;border:1px solid #bbb;box-sizing:border-box}
-  textarea{height:80px;display:block}
-  button{margin-top:8px;padding:6px 10px}
-  footer{text-align:center;margin-top:18px;font-size:12px;color:#666}
-  @media(max-width:520px){input,textarea{width:100%}}
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TechLearn Educational Blog</title>
+  <style>
+    body { font-family: "Times New Roman", serif; margin:18px; background:#fff; color:#111; }
+    header { text-align:center; }
+    header h1 { font-size:26px; font-weight:700; margin:0; }
+    header p.tagline { margin:4px 0 12px; font-size:14px; color:#444; }
+    nav { text-align:center; margin-bottom:10px; }
+    nav a { margin:0 6px; font-size:14px; color:#113; text-decoration:underline; }
+    hr { border:0; height:1px; background:#ddd; margin:12px 0; }
+    h2 { font-size:20px; margin-top:12px; }
+    h3 { font-size:17px; margin-top:10px; }
+    ul, ol { margin-left:20px; }
+    label { display:block; margin-top:6px; font-size:14px; }
+    input, textarea {
+      width:260px; padding:6px; font-family:inherit;
+      border:1px solid #bbb; box-sizing:border-box;
+    }
+    button { margin-top:6px; padding:6px 12px; font-size:13px; }
+    .small { font-size:13px; color:#555; }
+    footer { margin-top:20px; text-align:center; font-size:12px; color:#666; }
+    @media(max-width:520px){
+      input, textarea { width:100%; max-width:320px; }
+    }
+  </style>
 </head>
+
 <body>
-<div class="wrap">
-  <header>
-    <h1>PowerFit Gym</h1>
-    <p class="lead">"Train Hard, Stay Strong, Live Healthy"</p>
-    <nav>
-      <a href="#">Home</a> |
-      <a href="#">Class Schedule</a> |
-      <a href="#">Our Trainers</a> |
-      <a href="#">Membership Plans</a> |
-      <a href="#">Fitness Blog</a> |
-      <a href="#">Contact</a>
-    </nav>
-  </header>
 
-  <hr>
+<header>
+  <h1>TechLearn Educational Blog</h1>
+  <p class="tagline">"Learn. Explore. Grow with Technology."</p>
+</header>
 
-  <section>
-    <h2>Welcome to PowerFit Gym</h2>
-    <p class="small">Welcome to <strong>PowerFit Gym</strong>, your neighborhood fitness club where health meets passion. We offer personalized training, group workouts, and expert guidance to help you stay fit and confident.</p>
-  </section>
+<nav>
+  <a href="#">Home</a> |
+  <a href="#">Categories</a> |
+  <a href="#">Blog Posts</a> |
+  <a href="#">Tags</a> |
+  <a href="#">Comments</a>
+</nav>
 
-  <section>
-    <h2>Class Schedule</h2>
-    <table>
-      <tr><th>Day</th><th>Class</th><th>Time</th><th>Instructor</th></tr>
-      <tr><td>Monday</td><td>Yoga</td><td>6:00 AM - 7:00 AM</td><td>Vikas</td></tr>
-      <tr><td>Tuesday</td><td>Cardio Blast</td><td>7:00 AM - 8:00 AM</td><td>Raj</td></tr>
-      <tr><td>Wednesday</td><td>Strength Training</td><td>6:00 PM - 7:00 PM</td><td>Tarun</td></tr>
-      <tr><td>Thursday</td><td>Zumba</td><td>5:00 PM - 6:00 PM</td><td>Srijan</td></tr>
-      <tr><td>Friday</td><td>CrossFit</td><td>6:00 PM - 7:30 PM</td><td>Aman</td></tr>
-    </table>
-  </section>
+<hr />
 
-  <section>
-    <h2>Our Trainers</h2>
-    <p><strong>1. Rahul Sharma</strong><br><span class="small">Certified Personal Trainer with 5 years of experience in weight loss and muscle building.</span></p>
-    <p><strong>2. Neha Verma</strong><br><span class="small">Zumba and Yoga specialist who makes fitness fun and energetic.</span></p>
-    <p><strong>3. Arjun Singh</strong><br><span class="small">CrossFit expert and nutrition advisor, helps you push limits safely.</span></p>
-  </section>
+<h2>Welcome to TechLearn</h2>
+<p>
+  Welcome to <strong>TechLearn Blog</strong> — your simple educational hub for learning about
+  <em>technology, gadgets, software tips, and digital life.</em>
+  This blog aims to share easy and useful articles for students, beginners, and tech enthusiasts.
+</p>
 
-  <section>
-    <h2>Membership Plans</h2>
-    <table>
-      <tr><th>Plan</th><th>Duration</th><th>Price</th><th>Benefits</th></tr>
-      <tr><td>Basic</td><td>1 Month</td><td>₹1,999</td><td>Gym Access, Free Diet Tips</td></tr>
-      <tr><td>Standard</td><td>3 Months</td><td>₹4,499</td><td>Gym + 1 Personal Training Session/Week</td></tr>
-      <tr><td>Premium</td><td>6 Months</td><td>₹8,499</td><td>All Classes + Diet Chart + Free Merchandise</td></tr>
-    </table>
-  </section>
+<h2>Blog Categories</h2>
+<ul>
+  <li>Technology News</li>
+  <li>Programming Tutorials</li>
+  <li>Mobile & Gadgets</li>
+  <li>Software Tips</li>
+  <li>Internet Safety</li>
+</ul>
 
-  <section>
-    <h2>Fitness Blog</h2>
-    <p class="small"><strong>Top 5 Exercises for Beginners:</strong> Push-ups, Squats, Lunges, Planks, Jumping Jacks — great to start your fitness journey.</p>
-    <p class="small"><strong>Healthy Eating Tips:</strong> Eat more protein, drink water, avoid junk food, get enough sleep.</p>
-    <p class="small"><strong>How to Stay Motivated:</strong> Set small goals, track progress, and celebrate improvements no matter how small.</p>
-  </section>
+<hr />
 
-  <section>
-    <h2>Contact Us</h2>
-    <form onsubmit="alert('Message sent (demo)'); return false;">
-      <label>Name:<input type="text" name="name"></label>
-      <label>Email:<input type="text" name="email" value="dev069975@gmail.com"></label>
-      <label>Message:<textarea name="msg"></textarea></label>
-      <button type="submit">Send Message</button>
-    </form>
+<h2>Recent Blog Posts</h2>
 
-    <p style="margin-top:12px" class="small">
-      <strong>Address:</strong> Ghaziabad, India<br>
-      <strong>Email:</strong> <a href="mailto:dev069975@gmail.com">dev069975@gmail.com</a><br>
-      <strong>Phone:</strong> 7982737536
-    </p>
-  </section>
+<h3>1. Introduction to Artificial Intelligence</h3>
+<p><strong>Date:</strong> November 12, 2025 |
+<strong>Category:</strong> Technology |
+<strong>Tags:</strong> AI, Machine Learning</p>
+<p>
+  Artificial Intelligence (AI) is the simulation of human intelligence by machines.
+  It enables computers to learn from data, recognize patterns, and make decisions.
+</p>
 
-  <footer>
-    © 2025 PowerFit Gym | Made by Dev Sharma
-  </footer>
-</div>
+<h3>2. Top 5 Programming Languages to Learn in 2025</h3>
+<p><strong>Date:</strong> November 10, 2025 |
+<strong>Category:</strong> Programming |
+<strong>Tags:</strong> Coding, Learning</p>
+<p>
+  Choosing the right programming language can boost your career.
+  The top 5 languages in 2025 are Python, JavaScript, C++, Java, and Go.
+</p>
+
+<h3>3. How to Stay Safe on the Internet</h3>
+<p><strong>Date:</strong> November 8, 2025 |
+<strong>Category:</strong> Internet Safety |
+<strong>Tags:</strong> Cybersecurity, Privacy</p>
+<p>
+  Online safety is important in today’s digital world. Avoid sharing personal information,
+  use strong passwords, and never click unknown links.
+</p>
+
+<hr />
+
+<h2>Popular Tags</h2>
+<p>Tags: AI, Programming, Technology, Learning, Cybersecurity, Software</p>
+
+<hr />
+
+<h2>Leave a Comment</h2>
+
+<form onsubmit="alert('Comment submitted (demo only)'); return false;">
+  <label>Your Name:
+    <input type="text" name="name" />
+  </label>
+
+  <label>Email:
+    <input type="email" name="email" />
+  </label>
+
+  <label>Comment:
+    <textarea name="comment"></textarea>
+  </label>
+
+  <button type="submit">Post Comment</button>
+</form>
+
+<h3>Recent Comments:</h3>
+<p><strong>Riya:</strong> "Great blog! I learned a lot about AI basics!"</p>
+<p><strong>Arjun:</strong> "Very useful tips for beginners. Thank you!"</p>
+
+<hr />
+
+<h2>Contact Us</h2>
+<p class="small">
+  <strong>Email:</strong> <a href="mailto:dev069975@gmail.com">dev069975@gmail.com</a><br>
+  <strong>Phone:</strong> 7982737536<br>
+  Follow us on:
+  <a href="#">Facebook</a> |
+  <a href="#">Instagram</a> |
+  <a href="#">Twitter</a>
+</p>
+
+<footer>
+  © 2025 TechLearn Educational Blog | Created by Dev Sharma
+</footer>
+
 </body>
 </html>
